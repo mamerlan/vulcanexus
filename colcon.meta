@@ -1,23 +1,17 @@
 {
     "names":
     {
-        "fastdds_monitor":
-        {
-            "cmake-args":
-            [
-                "-DQT_PATH=/opt/qt515"
-            ]
-        },
         "fastrtps":
         {
             "cmake-args":
             [
                 "-DSECURITY=ON",
-                "-DCOMPILE_EXAMPLES=ON",
+                "-DCOMPILE_EXAMPLES=OFF",
+                "-DINSTALL_EXAMPLES=OFF",
                 "-DFASTDDS_STATISTICS=ON"
             ]
         },
-        "rmw_fastrtps_cpp":
+        "rmw_fastrtps_shared_cpp":
         {
             "cmake-args":
             [
@@ -31,11 +25,18 @@
                 "-DSECURITY=ON"
             ]
         },
-        "rmw_fastrtps_shared_cpp":
+        "rmw_fastrtps_cpp":
         {
             "cmake-args":
             [
                 "-DSECURITY=ON"
+            ]
+        },
+        "fastdds_monitor":
+        {
+            "cmake-args":
+            [
+                "-DQT_PATH=/opt/qt515"
             ]
         }
     }
