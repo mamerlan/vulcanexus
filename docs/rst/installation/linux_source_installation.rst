@@ -25,7 +25,7 @@ Install Vulcanexus dependencies
 -------------------------------
 
 First, follow the `Install dependencies using rosdep <https://docs.ros.org/en/galactic/Installation/Ubuntu-Development-Setup.html#install-dependencies-using-rosdep>`_ section of ROS 2 installation guide.
-Then, some additional dependencies which are required for the Vulcanexus distribution must be installed.
+Then, some additional dependencies which are required for Vulcanexus must be installed.
 Start by adding the Qt 5.15 repository required for the installation of several Fast DDS Monitor dependencies:
 
 .. code-block:: bash
